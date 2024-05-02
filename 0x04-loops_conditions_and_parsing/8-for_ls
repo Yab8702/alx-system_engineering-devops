@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-#display The content of the current directory
-lst=$(ls)
-for f in $lst
-do
-	find "$f" | cut -d- -f2
-done
